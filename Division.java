@@ -2,7 +2,6 @@ class Division extends Operation {
     public Division(Expression operande1, Expression operande2) {
         super(operande1, operande2);
     }
-
    
     public int valeur() {
         int denominateur = getOperande2().valeur();
