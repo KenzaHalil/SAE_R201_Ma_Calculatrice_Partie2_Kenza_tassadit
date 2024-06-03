@@ -1,15 +1,17 @@
 public class Nombre extends Expression {
-    private int valeurNombre;
+    private double valeur;
 
-    public Nombre(int valeur) {
-        this.valeurNombre = valeur;
+    public Nombre(double valeur) {
+        this.valeur = valeur;
     }
 
-    public int valeur() {
-        return valeurNombre;
+  
+    public double valeur() {
+        return valeur;
     }
 
+ 
     public String toString() {
-        return String.valueOf(valeurNombre);
+        return String.valueOf(valeur);
     }
 }
